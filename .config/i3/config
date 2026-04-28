@@ -23,7 +23,7 @@ set $lock_command "betterlockscreen -l"
 set $auto_lock "xss-lock --transfer-sleep-lock -- betterlockscreen -l"
 
 # Wallpaper
-set $wallpaper_command "exec --no-startup-id feh --bg-scale ~/images/mountains.png"
+set $wallpaper_command "feh --bg-scale ~/images/mountains.png"
 
 bindsym $mod+Shift+s exec $ss_command 
 bindsym Print exec $prints_command
