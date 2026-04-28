@@ -225,7 +225,7 @@ client.urgent           #e74c3c #c0392b #ffffff #ffffff
 # Status Bar
 bar {
     	font pango:DejaVu Sans Mono 9.3
-	status_command /home/parsa/.local/bin/bumblebee-status -m pacman cpu memory \
+	status_command bumblebee-status -m pacman cpu memory \
     		pasink pasource battery brightness keyboard dunst date time playerctl \
     		-p date.format="%a, %b %d %Y" time.format="%H:%M" playerctl.hide=true -t nord-powerline
         colors {
