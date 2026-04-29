@@ -66,6 +66,9 @@ exec --no-startup-id $auto_lock
 # Network Manager Applet 
 exec --no-startup-id nm-applet
 
+# Workspace 1
+exec --no-startup-id bash ~/workspace-1.sh
+
 # Font
 font pango:DejaVu Sans Mono 8
 
