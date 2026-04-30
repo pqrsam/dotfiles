@@ -232,10 +232,10 @@ bar {
     		pasink pasource battery brightness keyboard dunst date time playerctl \
     		-p date.format="%a, %b %d %Y" time.format="%H:%M" playerctl.hide=true -t nord-powerline
         colors {
-        	background #311b2b
-        	focused_workspace  #db3477 #b9298b #ffffff #ffffff
+        background #311b2b
+        focused_workspace  #db3477 #b9298b #ffffff #ffffff
         	active_workspace   #2ecc71 #27ae60 #ffffff #ffffff
-        	inactive_workspace #5e344c #502c43 #bdc3c7 #bdc3c7
+        inactive_workspace #5e344c #502c43 #bdc3c7 #bdc3c7
         	urgent_workspace   #e74c3c #c0392b #ffffff #ffffff
         	binding_mode       #f39c12 #e67e22 #ffffff #ffffff
 
